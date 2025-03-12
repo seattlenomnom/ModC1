@@ -14,5 +14,12 @@ int main() {
 
     printf("Decimal: %d  Octal: %o  Hexidecimal: %x\n", x, x, x);
 
+    printf("This is line %d\n", __LINE__);
+    printf("This is file: %s\n", __FILE__);
+    printf("The time is : %s\n", __TIME__);
+    printf("The date is: %s\n", __DATE__);
+    printf("The calling function is: %s\n", __func__);
+    printf("The version of C: %ld\n", __STDC_VERSION__);
+
     return(0);
 }
